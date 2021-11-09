@@ -1,5 +1,5 @@
 # Conpra: Algorithms for Programming Contests
-Conpra is the Master level practical course about Programming Contests at the Technical University of Munich. Each week, for thirteen weeks in a row, there are five problems to solve around the same theoretical concept.
+Conpra is the master level practical course about programming contests at the Technical University of Munich. Each week, for thirteen weeks in a row, there are five problems to solve around the same theoretical concept.
 
 #### Preliminary problems
 - [x] [BRTREE](https://www.spoj.com/problems/BRTREE/)
