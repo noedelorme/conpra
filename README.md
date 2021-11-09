@@ -12,8 +12,6 @@ Conpra is the master level practical course about programming contests at the Te
 - [ ] [BOARD1](https://www.spoj.com/problems/BOARD1/)
 - [x] [ADACHESS](https://www.spoj.com/problems/ADACHESS/)
 
----
-
 #### Week 1: Introduction
 - [x] Hello World!
 - [x] Students
