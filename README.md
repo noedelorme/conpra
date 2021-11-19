@@ -32,3 +32,10 @@ Conpra is the master level practical course about programming contests at the Te
 - [x] City Roads
 - [x] Candy Store
 - [x] Water Temple
+
+#### Week 4: Graphs
+- [x] Hiking
+- [x] Currency Exchange
+- [x] Supermarkets
+- [x] Party Planning
+- [x] Change of Scenery
