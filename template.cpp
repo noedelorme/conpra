@@ -193,6 +193,57 @@ pair<bool,vd> BellmanFordCycle(vldi adj, int src){
 	return make_pair(!Q.empty(),dist);
 }
 
+/* Ford-Fulkerson's Algorithm (Maximum Flow) */
+bool FordFulkersonBFS(vvi residualAdj, int s, int t, vi &parent){
+	int n = residualAdj.size();
+  	vb visited(n, false);
+  	queue<int> q;
+  	q.push(s);
+  	visited[s-1] = true;
+  	parent[s-1] = -1;
+
+  	while(!q.empty()){
+    	int u = q.front(); q.pop();
+    	REP(v,n){
+      		if(!visited[v] && residualAdj[u-1][v]>0) {
+        		q.push(v+1);
+        		parent[v] = u;
+        		visited[v] = true;
+      		}
+    	}
+  	}
+  	return visited[t-1];
+}
+int FordFulkerson(vvi adj, int s, int t) {
+	int n = adj.size();
+	vvi residualAdj(n, vi(n));
+	REP(i,n){ REP(j,n){ residualAdj[i][j] = adj[i][j]; } }
+  	vi parent(n);
+  	int maxFlow = 0;
+
+  	while(FordFulkersonBFS(residualAdj, s, t, parent)){
+    	int pathFlow = INF;
+		int u;
+		int v = t;
+		while(v != s){
+			u = parent[v-1];
+			pathFlow = min(pathFlow, residualAdj[u-1][v-1]);
+			v = u;
+		}
+
+		v = t;
+		while(v != s){
+			u = parent[v-1];
+			residualAdj[u-1][v-1] -= pathFlow;
+			residualAdj[v-1][u-1] += pathFlow;
+			v = u;
+		}
+
+    	maxFlow += pathFlow;
+  	}
+  	return maxFlow;
+}
+
 /* Chrono */
 auto start = chrono::steady_clock::now();
 auto stop = chrono::steady_clock::now();

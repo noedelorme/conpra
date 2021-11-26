@@ -39,3 +39,10 @@ Conpra is the master level practical course about programming contests at the Te
 - [x] Supermarkets
 - [x] Party Planning
 - [x] Change of Scenery
+
+#### Week 5: Flow Network Algorithms (Ford-Fulkerson, Edmonds-Karp, Dinic, Goldberg-Tarjan)
+- [x] Railroad Network
+- [x] Fine Dining
+- [x] Connectivity
+- [x] Football Champion
+- [ ] Goat Riders
