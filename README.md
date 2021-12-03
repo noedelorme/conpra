@@ -46,3 +46,14 @@ Conpra is the master level practical course about programming contests at the Te
 - [x] Connectivity
 - [x] Football Champion
 - [ ] Goat Riders
+
+#### Week 6: Brut force (Exhaustive search, Generating permutations, Backtracking)
+This week, there are 8 problems of which three problems cannot be solved within the given time bound. Avoid uploading any solutions to the infeasible problems.
+- [x] Queens Problem
+- [x] Story Time
+- [x] Muffin Queen
+- [ ] Hockey Champion (not solvable within the given time bound)
+- [ ] Tiling (not solvable within the given time bound)
+- [ ] Alarm Clock
+- [ ] Planetarium Problem (not solvable within the given time bound)
+- [x] Trapped

@@ -66,6 +66,12 @@ int main(){
     return 0;
 }
 
+/* Chrono */
+auto start = chrono::steady_clock::now();
+auto stop = chrono::steady_clock::now();
+chrono::duration<double> duration = stop-start;
+cout << "duration: " << duration.count() << "s\n";
+
 /* Union Find Integer */
 map<int, pair<int, unsigned int>> Sets;
 void AddSet(int x){ Sets.insert(make_pair(x, make_pair(x, 1))); }
@@ -244,8 +250,25 @@ int FordFulkerson(vvi adj, int s, int t) {
   	return maxFlow;
 }
 
-/* Chrono */
-auto start = chrono::steady_clock::now();
-auto stop = chrono::steady_clock::now();
-chrono::duration<double> duration = stop-start;
-cout << "duration: " << duration.count() << "s\n";
+/* Generate all permutations */
+vi permutations(vi currentConfig){
+    int m = currentConfig.size();
+
+    REP(i,m){cout<<currentConfig[i];}cout<<endl;
+
+    vi nextConfig = currentConfig;
+    //Find largest k s.t. a[k]<a[k+1]
+    int k=m-1-1; while(k>=0 && nextConfig[k]>=nextConfig[k+1]){ k--; }
+    //If k does not exist then this is the last permutation
+    if(k<0){ return vi(m,0); }
+    //Find largest l s.t. a[k]<a[l]
+    int l=m-1; while(l>=0 && currentConfig[k]>=currentConfig[l]){ l--; }
+    //Swap value a[k] and a[l]
+    swap(nextConfig[k],nextConfig[l]);
+    //Reverse sequence from a[k+1] to a[m]
+    reverse(nextConfig.begin()+k+1, nextConfig.end());
+
+    perm(nextConfig);
+
+    return vi(m,0);
+}
