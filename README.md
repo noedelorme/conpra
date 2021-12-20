@@ -65,21 +65,24 @@ This week, there are 8 problems of which three problems cannot be solved within 
 - [x] Woodchucking
 - [x] Goat Riders
 
-#### Week 8: Dynamic programming
-- [ ] Making Change
-- [ ] Bracelets
-- [ ] Packing Cases
-- [ ] Poker
+#### Week 8: Dynamic programming (Change making, 0/1 Knapsack, Longest increasing subsequence)
+- [x] Making Change
+- [x] Bracelets
+- [x] Packing Cases
+- [x] Poker
 - [ ] Escaping the Paradox
 
-#### Week 9: Geometry
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] D
-- [ ] E
+#### Week 9: Number theory (Big integers, Fast exponentiation, Sieve of Eratosthenes, GCD & LCM, Euclidian algorithm, Chinese remainder theorem)
+- [ ] Commander-in-Chief
+- [ ] Break In
+- [ ] N-athlon
+- [ ] Soft Skills
+- [ ] Keyboards
+- [ ] Candies (bonus problem)
+- [ ] Fantasy Chess (bonus problem)
+- [ ] Vaults & Vampires (bonus problem)
 
-#### Week 10: Number theory
+#### Week 10: Geometry
 - [ ] A
 - [ ] B
 - [ ] C
