@@ -73,21 +73,22 @@ This week, there are 8 problems of which three problems cannot be solved within 
 - [ ] Escaping the Paradox
 
 #### Week 9: Number theory (Big integers, Fast exponentiation, Sieve of Eratosthenes, GCD & LCM, Euclidian algorithm, Chinese remainder theorem)
-- [ ] Commander-in-Chief
-- [ ] Break In
-- [ ] N-athlon
-- [ ] Soft Skills
+- [x] Commander-in-Chief
+- [x] Break In
+- [x] N-athlon
+- [x] Soft Skills
 - [ ] Keyboards
-- [ ] Candies (bonus problem)
+- [x] Candies (bonus problem)
 - [ ] Fantasy Chess (bonus problem)
 - [ ] Vaults & Vampires (bonus problem)
 
 #### Week 10: Geometry
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] D
-- [ ] E
+- [ ] Meteorite
+- [ ] Fence Posts
+- [ ] Surveillance
+- [ ] Azrieli
+- [ ] Fragile Letters
+- [ ] Pathing (bonus problem)
 
 #### Week 11: Trees
 - [ ] A

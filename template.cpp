@@ -272,3 +272,35 @@ vi permutations(vi currentConfig){
 
     return vi(m,0);
 }
+
+/* Compute GCD */
+lint gcd(lint a, lint b){
+	if(b==0){
+		return a;
+	}else{
+		return gcd(b, a%b);
+	}
+}
+
+/* Compite LCM */
+lint lcm(lint a, lint b){
+	return a*b/gcd(a,b);
+}
+
+/* Find Bezeout relation */
+pair<lint,pair<lint,lint>> bezout(lint a, lint b){
+	lint s = 0; lint sp = 1;
+    lint t = 1; lint tp = 0;
+    lint r = b; lint rp = a;
+    lint q, temp;
+    while(r!=0){
+        q = rp/r;
+        temp=rp; rp=r; r=temp-q*rp;
+        temp=sp; sp=s; s=temp-q*sp;
+        temp=tp; tp=t; t=temp-q*tp;
+    }
+    return make_pair(rp,make_pair(sp,tp));
+}
+
+/* Compute positive modulo */
+lint modulo(lint a,lint b){ return (a%b+b)%b; }
