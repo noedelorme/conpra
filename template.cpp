@@ -304,3 +304,38 @@ pair<lint,pair<lint,lint>> bezout(lint a, lint b){
 
 /* Compute positive modulo */
 lint modulo(lint a,lint b){ return (a%b+b)%b; }
+
+/* Return the angle defined by ABC (degree) */
+double angle(Point a, Point b, Point c){
+    double aa = pow(b.x-a.x,2) + pow(b.y-a.y,2);
+    double bb = pow(b.x-c.x,2) + pow(b.y-c.y,2);
+    double cc = pow(c.x-a.x,2) + pow(c.y-a.y,2);
+    return acos((aa+bb-cc)/sqrt(4*aa*bb))*180/PI;
+}
+
+/* Return the centroid of a polygon */
+Point centroid(vector<Point> points){
+    int n = points.size();
+    Point centroid = {0, 0};
+    double area = 0;
+    double x0=0; double y0=0;
+    double x1=0; double y1=0;
+    double partialArea = 0.0;
+
+    REP(i,n){
+        x0 = points[i].x;
+        y0 = points[i].y;
+        x1 = points[(i+1)%n].x;
+        y1 = points[(i+1)%n].y;
+        partialArea = x0*y1 - x1*y0;
+        area += partialArea;
+        centroid.x += (x0+x1)*partialArea;
+        centroid.y += (y0+y1)*partialArea;
+    }
+
+    area *= 0.5;
+    centroid.x /= (6.0*area);
+    centroid.y /= (6.0*area);
+
+    return centroid;
+}

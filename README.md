@@ -82,20 +82,21 @@ This week, there are 8 problems of which three problems cannot be solved within 
 - [ ] Fantasy Chess (bonus problem)
 - [ ] Vaults & Vampires (bonus problem)
 
-#### Week 10: Geometry
-- [ ] Meteorite
-- [ ] Fence Posts
-- [ ] Surveillance
-- [ ] Azrieli
-- [ ] Fragile Letters
+#### Week 10: Geometry (Gift-wrapping algorithm, Graham’s scan algorithm)
+- [x] Meteorite
+- [x] Fence Posts
+- [x] Surveillance
+- [x] Azrieli
+- [x] Fragile Letters
 - [ ] Pathing (bonus problem)
 
 #### Week 11: Trees
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] D
-- [ ] E
+- [ ] Contact List
+- [ ] J&J's
+- [ ] Broken Tetris
+- [ ] Treehouse
+- [ ] Ghost
+- [ ] Catmon Go (bonus problem)
 
 #### Week 12: Contest
 - [ ] A
