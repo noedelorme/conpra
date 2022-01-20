@@ -90,13 +90,13 @@ This week, there are 8 problems of which three problems cannot be solved within 
 - [x] Fragile Letters
 - [ ] Pathing (bonus problem)
 
-#### Week 11: Trees
-- [ ] Contact List
-- [ ] J&J's
-- [ ] Broken Tetris
-- [ ] Treehouse
-- [ ] Ghost
-- [ ] Catmon Go (bonus problem)
+#### Week 11: Trees (Trie, Segment tree, Lowest common ancestor)
+- [x] Contact List
+- [x] J&J's
+- [x] Broken Tetris
+- [x] Treehouse
+- [x] Ghost
+- [x] Catmon Go (bonus problem)
 
 #### Week 12: Contest
 - [ ] A

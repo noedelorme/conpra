@@ -27,8 +27,8 @@ using namespace std;
 #define SD(x) scanf("%lf",&x)
 #define SC(x) scanf("%c",&x)
 #define SS(x) scanf("%s",x)
-#define FOR(i, s, k, p) for(int i=s; i<k; i+=p)
-#define REP(i, n) FOR(i, 0, n, 1)
+#define FOR(i, s, k) for(int i=s; i<k; i++)
+#define REP(i, n) FOR(i, 0, n)
 #define INF INT_MAX
 #define EPS 1e-9
 #define PI acos(-1)
