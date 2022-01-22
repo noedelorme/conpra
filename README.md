@@ -98,19 +98,24 @@ This week, there are 8 problems of which three problems cannot be solved within 
 - [x] Ghost
 - [x] Catmon Go (bonus problem)
 
-#### Week 12: Contest
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] D
-- [ ] E
+#### Week 12: Projective geometry
+- [x] Swordfighting
+- [x] Euler Line
+- [ ] Fallingwater
+- [x] Family Pictures
+- [x] Fractals
 
-#### Week 13: Conclusion
+#### Week 13: Contest week
 - [ ] A
 - [ ] B
 - [ ] C
 - [ ] D
 - [ ] E
+- [ ] F
+- [ ] G
+- [ ] H
+- [ ] I
+- [ ] J
 
 #### Test case contest
 A testcase contest for bonus points. See the archive with the solutions to break in the materials. AES-CTR scoring: 2 points for breaking each (almost-reasonable) solution (providing a test case that makes it go outside 4x approximation bound), +1 point for a generator capable to provide many diverse testcases breaking the same solution (please specify what is the success rate), and more (see README.txt inside the archive).

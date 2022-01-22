@@ -57,7 +57,7 @@ typedef vector<list<pair<double,int>>> vldi;
 
 int main(){
 
-    int t; SI(t); FOR(testcase, 1, t+1, 1){
+    int t; SI(t); FOR(testcase, 1, t+1){
 		
 
 		printf("Case #%d: \n", testcase);
